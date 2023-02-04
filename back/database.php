@@ -13,12 +13,6 @@ ini_set("display_errors", 1);
 session_start();
 
 
-//database connection
-//$DB_host = "momentoustc-cluster.cluster-c2xuqljnxf37.us-east-1.rds.amazonaws.com";
-//$DB_user = "webpac";
-//$DB_pass = "JustAnother2016!TCdb";
-//$DB_name = "TCIpolice";
-
 $DB_host = "localhost";
 $DB_user = "root";
 $DB_pass = "root";
