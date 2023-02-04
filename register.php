@@ -23,7 +23,9 @@ $page = 'signin';
        $user->printError();
        $error = true;
        echo '</div>';
-   }
+   }else{
+      $error=false;
+    }
    ?>
     
            <label for="inputFirst" class="sr-only">First Name</label>
