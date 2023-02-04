@@ -5,4 +5,4 @@ Run index.php on the server.
 
 In back database.php add your db credentials.
 
-recordsdbtxt.txt has the mysql file.
+recordsdb.txt has the mysql file.
