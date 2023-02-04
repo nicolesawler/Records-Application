@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Nov-2017, 5:55:08 PM
+    Author     : nicolesawler
+*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #bd342d;
+}
+.navbar-brand b{
+    color:#bd342d;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #bd342d;
+    border-color: #bd342d;
+}
+a {
+    color: #bd342d;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover{
+    color: #a62821;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+ .btn-primary {
+    color: #fff;
+    background-color: #bd342d;
+    border-color: #bd342d;
+} 
+ .btn-primary:hover,
+ .btn-primary:focus,
+ .btn-primary:disabled,
+ .btn-primary:visited,
+ .btn-primary:active,
+ .btn-primary:after
+ {
+    color: #fff;
+    background-color: #a62821;
+    border-color: #a62821;
+    cursor:pointer;
+    outline:none;
+}   

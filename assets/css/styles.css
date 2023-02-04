@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8-Nov-2017, 8:04:36 PM
+    Author     : nicolesawler
+*/
+
+img.logo{
+    max-width:100px;
+}
+.clear{
+    clear:both;
+}
+
+
+/* PASSPORT IMAGE UPLOAD */
+.imageinput {
+	max-width: 250px;
+	height: 40px;
+	/*overflow: hidden;//kills*/
+	position:relative;
+        top:45px;
+        left:-100px;
+        opacity:0;
+	z-index: 10;
+}
+.imageinput:focus,.imageinput:hover{
+    cursor: pointer;
+    outline:0;
+    
+}
+.imageinput + label {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #474747;
+    padding: 5px 30px 5px 30px;
+    border-radius:10px;
+    display:inline-block;
+    max-width:240px;
+    text-align:center;
+    margin:-10px 0 0 0 ;
+}
+
+.imageinput:focus + label,
+.imageinput + label:hover {
+    background-color: #aaa;
+}
+.imageinput + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.imageinput:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+
+
+
+
+
+
+/*bootstrap mods*/
+input.form-control:focus,
+input[type=checkbox]:focus,
+input[type=checkbox]:checked,
+input[type=checkbox]:after,
+input[type=checkbox]:before
+
+{
+    outline:0!important;
+    resize:none;
+    background:transparent;
+    border:0;
+    outline:none;
+    -webkit-border-radius: 0px;
+     -webkit-border: 0px;
+        
+}
+     .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #bd342d;
+    border-color: #bd342d;
+}
+a {
+    color: #bd342d;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover{
+    color: #a62821;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+ .btn-primary {
+    color: #fff;
+    background-color: #bd342d;
+    border-color: #bd342d;
+} 
+ .btn-primary:hover,
+ .btn-primary:focus,
+ .btn-primary:disabled,
+ .btn-primary:visited,
+ .btn-primary:active,
+ .btn-primary:after
+ {
+    color: #fff;
+    background-color: #a62821;
+    border-color: #a62821;
+    cursor:pointer;
+    outline:none;
+}     
+   
+      /*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -100%; /* 12 columns */
+  }
+
+  .row-offcanvas-right.active .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -100%; /* 12 columns */
+  }
+
+  .row-offcanvas-left.active .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
