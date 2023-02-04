@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-(int) $appid = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_STRING);
+(int) $appid = filter_input(INPUT_GET, 'id', FILTER_UNSAFE_RAW);
 $tableImgOutput = $tableAppsOutput = "";
 
 if(!isset($appid)){
