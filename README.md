@@ -6,3 +6,5 @@ Run index.php on the server.
 In back database.php add your db credentials.
 
 recordsdb.txt has the mysql file.
+
+Change user role to 'ADMIN' to see reports
